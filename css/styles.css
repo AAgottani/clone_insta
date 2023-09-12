@@ -1,0 +1,205 @@
+h1{
+
+}
+
+.body{
+    background-color: #fafafa;
+}
+
+.banner2{
+    height: 480px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 280px;
+}
+
+.box1{
+    border: 1px solid #524d4d9d;
+    height: 340px;
+    width: 300px;
+    margin-top: 55px;
+    margin-left: 20px;
+    background-color: #ffffff;
+   
+}
+
+.box2{
+    border: 1px solid #706e6eb0;
+    height: 50px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.main{
+    display: flex;
+    
+}
+
+.logo_insta{
+    height: 50px;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.input{
+    width: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    margin-top: 5px;
+    height: 35px;
+    background-color:#fafafa;
+    transition: background-color 0.3s;
+}
+.input:hover{
+    background-color: rgb(241, 238, 238);
+}
+
+.input_btn{
+    width: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    height: 40px;
+    background-color: #4CB5F9;
+    border-radius: 8px;
+    opacity: .7;
+    color: #FFF;
+    font-weight: var(--font-weight-system-semibold);
+    font-size: 14px;
+    transition: background-color 0.3s;
+    
+}
+
+
+.input_btn:hover {
+    background-color: #858df1; /* Define a cor de fundo quando o mouse passa sobre o botão */
+}
+
+
+
+.lines{
+   
+display:flex;
+align-items: center;
+}
+
+.lines hr { 
+    flex-grow: 0.5; /* Expande a linha horizontal para ocupar o espaço disponível */
+    height: 0.3px; /* Define a altura das linhas horizontais */
+    background-color: #d4cece; /* Cor da linha horizontal */
+   margin-left: 15px;
+   margin-right: 15px;
+   
+}
+
+.box1 p{
+color: rgb(201, 203, 204);
+}
+
+.face_logo{
+    width: 20px;
+    height: 20px;
+}
+
+.face{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -20px;
+}
+
+.face p{
+    color: #1a1717;
+    margin-left:10px ;
+}
+
+.senha a{
+    color: #504a4a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cadastre{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.cad{
+    text-decoration: none;
+
+}
+
+.cadastre p{
+    margin-left: 40px;
+    margin-right: 5px;
+    font-weight: normal;
+    color: rgb(54, 53, 53);
+    
+}
+
+.obtenha {
+   margin-left: 100px;
+}
+
+.app_icons{
+    display: flex;
+  height: 50px;
+  margin: 5px;
+}
+
+.linha{
+    border-top: 1px solid #dbdbdb;
+    width: 134px;
+    margin: 10px auto ;
+}
+
+.lines p{
+    color: #1a1717;
+    font-size: 14px;
+}
+
+footer {
+    text-align: left;
+    width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer #footer-links {
+    display: flex;
+    list-style: none;
+  }
+
+  #footer-links li {
+    margin-right: 10px;
+  }
+
+  #footer-links a,
+#copyright {
+  text-decoration: none;
+  color: #8e8e8e;
+  font-size: 12px;
+}
+
+#footer-links{
+    flex-wrap: wrap;
+    justify-content: center;
+}
